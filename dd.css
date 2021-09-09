@@ -1,0 +1,42 @@
+<style>
+        a {
+            color:black;
+            text-decoration: none;
+        }
+        .roster {
+            color:red
+        }
+        h1 {
+            font-size:40px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            border:5px solid red;
+            padding:2px
+        }
+        ol{
+            margin:0;
+            border-right:1px solid  red;
+            width: 40px;
+            padding: 0;
+        }
+        table{
+            background-color:rgb(240, 226, 226);
+            margin:auto;
+            width: 350px;
+            height: 200px;
+            text-align: center;
+            border: 1px solid gray;
+        }
+        #grid #hide{
+            border:30px soild rgb(61, 28, 28);
+            display:grid;
+            grid-template-columns: 2fr 1fr;    
+        }
+        @media(max-width:450px) {
+            #hide{
+            display:none
+            }
+        }
+</style>
